@@ -1,102 +1,70 @@
-## Overview
-Subscription Management Dashboard is a comprehensive MERN stack application that allows users to subscribe to a plan, view their active plan, and manage their profile — with a clean and responsive UI. The platform features stunning glassmorphism design, smooth animations, and an intuitive admin panel for managing all subscriptions.
-Why This Project?
+# Getting Started with Create React App
 
-## Modern UI/UX: Glassmorphism effects, gradient backgrounds, and smooth animations
-## Secure Authentication: JWT-based authentication with protected routes
-## Admin Dashboard: Real-time analytics and subscription management
-## Fully Responsive: Works seamlessly across all devices
-## Performance Optimized: Fast loading times and smooth interactions
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Features
-## User Features
+In the project directory, you can run:
 
-=> User registration and login with JWT authentication
-=> Browse available subscription plans
-=> Subscribe to plans with instant activation
-=> View active subscription details and remaining days
-=> Profile management dashboard
-=> Password strength indicator during registration
-=> Real-time form validation
+### `npm start`
 
-## Admin Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-=> Comprehensive admin dashboard
-=> View all user subscriptions
-=> Real-time statistics (total, active, expired subscriptions)
-=> Revenue tracking and analytics
-=> User management capabilities
-=> Export subscription data
-=> Filter and search functionality
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Design Features
+### `npm test`
 
-=> Glassmorphism UI with backdrop blur effects
-=> Animated gradient backgrounds
-=> Smooth entrance and hover animations
-=> Interactive micro-animations
-=> Floating particles for depth
-=> Responsive design for all screen sizes
-=> Custom scrollbar styling
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Tech Stack
-## Frontend
+### `npm run build`
 
-React 18.x - UI library
-Redux Toolkit - State management
-React Router v6 - Navigation and routing
-Axios - HTTP client
-Tailwind CSS - Utility-first CSS framework
-Custom CSS Animations - For stunning effects
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Backend
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Node.js - Runtime environment
-Express.js - Web framework
-MongoDB - NoSQL database
-Mongoose - ODM for MongoDB
-JWT - Authentication
-bcrypt - Password hashing
-CORS - Cross-origin resource sharing
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-## Project Structure
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-subscription-management-dashboard/
-├── client/                      # Frontend React application
-│   ├── public/
-│   ├── src/
-│   │   ├── components/          # Reusable components
-│   │   │   ├── Layout.jsx       # Main layout wrapper
-│   │   │   └── PrivateRoute.jsx # Protected route component
-│   │   ├── pages/               # Page components
-│   │   │   ├── Login.jsx        # Login page with animations
-│   │   │   ├── Register.jsx     # Registration with validation
-│   │   │   ├── Plans.jsx        # Subscription plans display
-│   │   │   ├── Dashboard.jsx    # User dashboard
-│   │   │   └── AdminSubscriptions.jsx # Admin panel
-│   │   ├── services/
-│   │   │   └── api.js           # API service layer
-│   │   ├── store/
-│   │   │   └── store.js         # Redux store configuration
-│   │   ├── index.css            # Custom animations and styles
-│   │   ├── App.jsx              # Main app component
-│   │   └── main.jsx             # Entry point
-│   ├── package.json
-│   └── vite.config.js           # Vite configuration
-│
-└── server/                      # Backend Node.js application
-    ├── models/                  # Mongoose models
-    │   ├── User.js
-    │   ├── Plan.js
-    │   └── Subscription.js
-    ├── routes/                  # API routes
-    │   ├── auth.js
-    │   ├── plans.js
-    │   └── subscriptions.js
-    ├── middleware/
-    │   └── auth.js              # JWT verification middleware
-    ├── server.js                # Express server setup
-    ├── package.json
-    └── .env           
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
