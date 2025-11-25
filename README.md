@@ -1,71 +1,65 @@
-# React Subscription Management UI
+## Overview
+Subscription Management Dashboard is a comprehensive MERN stack application that allows users to subscribe to a plan, view their active plan, and manage their profile — with a clean and responsive UI. The platform features stunning glassmorphism design, smooth animations, and an intuitive admin panel for managing all subscriptions.
+Why This Project?
 
-This is a standalone React application that allows users to **subscribe to a plan, view their active plan, and manage their profile — with a clean and responsive UI**.
+## Modern UI/UX: Glassmorphism effects, gradient backgrounds, and smooth animations
+## Secure Authentication: JWT-based authentication with protected routes
+## Admin Dashboard: Real-time analytics and subscription management
+## Fully Responsive: Works seamlessly across all devices
+## Performance Optimized: Fast loading times and smooth interactions
 
-The interface is built using **glassmorphism effects** combined with **Royal UI styling**, giving the design a modern, smooth, and visually rich experience.
 
-## Available Scripts
+## Features
+## User Features
 
-In the project directory, you can run:
+=> User registration and login with JWT authentication
+=> Browse available subscription plans
+=> Subscribe to plans with instant activation
+=> View active subscription details and remaining days
+=> Profile management dashboard
+=> Password strength indicator during registration
+=> Real-time form validation
 
-### `npm start`
+## Admin Features
 
-Runs the app in development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+=> Comprehensive admin dashboard
+=> View all user subscriptions
+=> Real-time statistics (total, active, expired subscriptions)
+=> Revenue tracking and analytics
+=> User management capabilities
+=> Export subscription data
+=> Filter and search functionality
 
-The page will reload when you make changes.  
-You may also see lint errors in the console.
+## Design Features
 
-### `npm test`
+=> Glassmorphism UI with backdrop blur effects
+=> Animated gradient backgrounds
+=> Smooth entrance and hover animations
+=> Interactive micro-animations
+=> Floating particles for depth
+=> Responsive design for all screen sizes
+=> Custom scrollbar styling
 
-Launches the test runner in interactive watch mode.
+## Tech Stack
+## Frontend
 
-### `npm run build`
+React 18.x - UI library
+Redux Toolkit - State management
+React Router v6 - Navigation and routing
+Axios - HTTP client
+Tailwind CSS - Utility-first CSS framework
+Custom CSS Animations - For stunning effects
 
-Builds the app for production to the `build` folder.  
-It bundles React in production mode and optimizes performance.
+## Backend
 
-### `npm run eject`
+Node.js - Runtime environment
+Express.js - Web framework
+JWT - Authentication
+bcrypt - Password hashing
+CORS - Cross-origin resource sharing
 
-⚠ **Note:** This is a one-way operation. Once you eject, you cannot go back.
+## Contact 
+=> k.prakavi1212@gmail.com
+=> https://www.linkedin.com/in/prakavik1212/ 
+ 
 
-This copies all configuration files and build dependencies into your project so you have full control over them.
-
-You never need to use `eject` unless you want full customization.
-
-## Learn More
-
-You can learn more from:
-
-- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- [React documentation](https://reactjs.org/)
-
-### Code Splitting
-
-Learn more:  
-https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-Learn more:  
-https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-Learn more:  
-https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-Learn more:  
-https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-Learn more:  
-https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-Learn more:  
-https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
